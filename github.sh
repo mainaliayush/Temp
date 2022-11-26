@@ -6,4 +6,5 @@ do
   sudo bash -c "echo 'somsadasdasdasdadething' >> file.txt"
   /usr/bin/git add . -A
   /usr/bin/git commit -m "ll"
+  /usr/bin/git push
 done
