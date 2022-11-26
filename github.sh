@@ -3,7 +3,7 @@ NUMBER=$(($RANDOM % 23))
 
 for ((run=1; run <= NUMBER + 1; run++))
 do
-  sudo bash -c "echo 'somsadasdasdasdadething' >> file.txt"
+  sudo bash -c "echo 'somsadasdasdasdadething' >> tt.txt"
   /usr/bin/git add . -A
   /usr/bin/git commit -m "ll"
   /usr/bin/git push
